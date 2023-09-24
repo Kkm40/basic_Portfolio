@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background-color: aquamarine;
+}
+
+img{
+    border-radius:50%;
+    /* pehle height hona chahiye tab width for image */
+    height: auto;/*alag alag device me height alag ho jaada hai vh k hisaaab se.. ya toh auto daalo ya fir vh mat daalo unit me say*/
+    width: 20vh;
+    margin:1vh 1vh;
+
+    box-shadow:black 8px 10px 19px;
+    /* x-axis    y-axis    opacity */
+}
+
+.site-header{
+    margin: 2vh ;
+    height: auto;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
